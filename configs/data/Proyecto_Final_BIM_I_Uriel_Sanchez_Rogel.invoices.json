@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "65ebf00a2fbc6d2232bef5fe"
+  },
+  "user": {
+    "$oid": "65e66e121dd6d40d65dac6d4"
+  },
+  "items": [
+    {
+      "product": {
+        "$oid": "65ea8406b4d42cd9e1f48324"
+      },
+      "quantity": 4,
+      "price": 50,
+      "_id": {
+        "$oid": "65ebefb46af421b37bf0c5f7"
+      }
+    }
+  ],
+  "total": 200,
+  "createdAt": {
+    "$date": "2024-03-09T05:13:46.523Z"
+  },
+  "__v": 0
+}]

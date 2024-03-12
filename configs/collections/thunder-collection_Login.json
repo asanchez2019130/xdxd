@@ -1,0 +1,29 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Login",
+    "dateExported": "2024-03-09T05:48:01.274Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "362262cf-a3a5-4d4d-90da-e71a16e227cb",
+            "colId": "8794329a-d9bd-4a7b-8e9b-2d56540ffa49",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:3000/gestionDeVentas/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-05T00:28:08.292Z",
+            "modified": "2024-03-08T23:33:10.206Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"emailOrUser\":\"1@kinal.edu.gt\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        }
+    ]
+}

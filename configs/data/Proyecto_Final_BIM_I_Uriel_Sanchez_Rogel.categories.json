@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "65e9438e15725baef376d3e6"
+  },
+  "nameCategory": "Deporte",
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ea564e99243e541356b6d3"
+  },
+  "nameCategory": "Default",
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ea8befd488fe664b66b66e"
+  },
+  "nameCategory": "Carros",
+  "state": true,
+  "__v": 0
+}]

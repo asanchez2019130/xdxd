@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "65ea73b7c7ae7761df5fc4e2"
+  },
+  "nameProduct": "MAZDA",
+  "descriptionProduct": "Producto_3",
+  "price": 10,
+  "category": {
+    "$oid": "65ea8befd488fe664b66b66e"
+  },
+  "stock": 43,
+  "sales": 4,
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ea83c6d579950cf7245130"
+  },
+  "nameProduct": "TOYOTA",
+  "descriptionProduct": "Producto_4",
+  "price": 10,
+  "category": {
+    "$oid": "65e9438e15725baef376d3e6"
+  },
+  "stock": 10,
+  "sales": 0,
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ea8406b4d42cd9e1f48324"
+  },
+  "nameProduct": "MITSUBISHI",
+  "descriptionProduct": "Producto_5",
+  "price": 50,
+  "category": {
+    "$oid": "65ea8befd488fe664b66b66e"
+  },
+  "stock": 0,
+  "sales": 4,
+  "state": true,
+  "__v": 0
+}]

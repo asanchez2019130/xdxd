@@ -1,0 +1,150 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "collectionProduct",
+    "dateExported": "2024-03-09T05:47:43.790Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a5107c85-d432-4495-90cc-95b68e3c63ac",
+            "colId": "d044743d-1198-467a-9ad8-c76ff2734a79",
+            "containerId": "",
+            "name": "getProducts",
+            "url": "http://localhost:3000/gestionDeVentas/v1/product",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-07T22:46:42.266Z",
+            "modified": "2024-03-07T22:47:11.113Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f04347d4-954c-4e52-8573-9a1e9a3094b8",
+            "colId": "d044743d-1198-467a-9ad8-c76ff2734a79",
+            "containerId": "",
+            "name": "getProductById",
+            "url": "http://localhost:3000/gestionDeVentas/v1/product/65ea49ab8fffdc6a31c64e75",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-03-07T23:12:08.884Z",
+            "modified": "2024-03-07T23:12:53.817Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c4ffef91-e019-4ed4-93cd-1da341990e7f",
+            "colId": "d044743d-1198-467a-9ad8-c76ff2734a79",
+            "containerId": "",
+            "name": "getProductByName",
+            "url": "http://localhost:3000/gestionDeVentas/v1/product/ProductsByName?nameProduct=m",
+            "method": "GET",
+            "sortNum": 27500,
+            "created": "2024-03-09T00:27:10.828Z",
+            "modified": "2024-03-09T00:32:27.053Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "nameProduct",
+                    "value": "m",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "ff1e6955-3d7b-4664-8d58-207ee8ebc5e9",
+            "colId": "d044743d-1198-467a-9ad8-c76ff2734a79",
+            "containerId": "",
+            "name": "getOutOfStock",
+            "url": "http://localhost:3000/gestionDeVentas/v1/product/ProductoOutOfStock",
+            "method": "GET",
+            "sortNum": 28750,
+            "created": "2024-03-07T23:32:55.970Z",
+            "modified": "2024-03-07T23:34:40.681Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9c602f70-3352-4697-a827-f4800b9dfc94",
+            "colId": "d044743d-1198-467a-9ad8-c76ff2734a79",
+            "containerId": "",
+            "name": "getProductsByCategory",
+            "url": "http://localhost:3000/gestionDeVentas/v1/product/ProductsByCategory/65ea8befd488fe664b66b66e",
+            "method": "GET",
+            "sortNum": 29375,
+            "created": "2024-03-09T01:46:45.797Z",
+            "modified": "2024-03-09T01:47:52.754Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f3087472-ef7f-46ef-a02c-53d7fa66fcf3",
+            "colId": "d044743d-1198-467a-9ad8-c76ff2734a79",
+            "containerId": "",
+            "name": "createProduct",
+            "url": "http://localhost:3000/gestionDeVentas/v1/product",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-07T22:47:26.633Z",
+            "modified": "2024-03-08T03:28:07.706Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU3YTUzZThhNTIzNWI0N2M0NmUyNTAiLCJpYXQiOjE3MDk4Njc5MzMsImV4cCI6MTcwOTg3MTUzM30.RpEsMEtMDERARwLF2UnHeNDJJr2eheoaWoJDMcXXA1o"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameProduct\": \"Producto_8\",\n  \"descriptionProduct\": \"Producto_8\",\n  \"price\": 50.00,\n  \"category\": \"65e9438e15725baef376d3e6\",\n  \"stock\": 10\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "689e598e-7b80-4669-88ad-389e46b65cdb",
+            "colId": "d044743d-1198-467a-9ad8-c76ff2734a79",
+            "containerId": "",
+            "name": "updateProduct",
+            "url": "http://localhost:3000/gestionDeVentas/v1/product/65ea85c7d488fe664b66b664",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-07T22:47:45.562Z",
+            "modified": "2024-03-08T03:54:47.923Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU3YTUzZThhNTIzNWI0N2M0NmUyNTAiLCJpYXQiOjE3MDk4NzAwNTIsImV4cCI6MTcwOTg3MzY1Mn0.u7ywYfYkl5FDDj5qaV08E15hmbuFIoEE7wfZ04D0rI0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameProduct\": \"Producto_Update\",\n  \"descriptionProduct\": \"Producto_Update\",\n  \"price\": 10.00,\n  \"category\": \"65ea8befd488fe664b66b66e\",\n  \"stock\": 50\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "3b13036d-a915-49e9-85fc-ebcdb99c8540",
+            "colId": "d044743d-1198-467a-9ad8-c76ff2734a79",
+            "containerId": "",
+            "name": "deleteProduct",
+            "url": "http://localhost:3000/gestionDeVentas/v1/product/65ea46c7620e5e7b5b299403",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-07T22:48:28.890Z",
+            "modified": "2024-03-07T23:04:24.730Z",
+            "headers": [],
+            "params": [],
+            "reqType": "del",
+            "tests": []
+        }
+    ]
+}

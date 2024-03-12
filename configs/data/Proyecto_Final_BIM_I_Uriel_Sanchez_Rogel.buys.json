@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "65ebea7a328bc6421e0b4bdb"
+  },
+  "user": {
+    "$oid": "65e66e121dd6d40d65dac6d4"
+  },
+  "shoppingCart": {
+    "$oid": "65ebcf0bf34e76e48d194aed"
+  },
+  "total": 220,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ebec4ff1d706ea5eefb1a7"
+  },
+  "user": {
+    "$oid": "65e66e121dd6d40d65dac6d4"
+  },
+  "shoppingCart": {
+    "$oid": "65ebeb5ef1d706ea5eefb15c"
+  },
+  "total": 240,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ebefcf6af421b37bf0c613"
+  },
+  "user": {
+    "$oid": "65e66e121dd6d40d65dac6d4"
+  },
+  "shoppingCart": {
+    "$oid": "65ebefb46af421b37bf0c5f6"
+  },
+  "total": 200,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ebf00a2fbc6d2232bef5fc"
+  },
+  "user": {
+    "$oid": "65e66e121dd6d40d65dac6d4"
+  },
+  "shoppingCart": {
+    "$oid": "65ebefb46af421b37bf0c5f6"
+  },
+  "total": 200,
+  "__v": 0
+}]

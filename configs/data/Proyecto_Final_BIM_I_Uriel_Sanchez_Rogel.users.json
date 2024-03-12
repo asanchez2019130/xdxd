@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "65e66e121dd6d40d65dac6d4"
+  },
+  "firstName": "1",
+  "lastName": "1",
+  "userName": "1",
+  "email": "1@kinal.edu.gt",
+  "password": "$2a$10$YJSXvBF/euScRvopQrN1O.dMoTwhNUch0d0to4Pjk8.mFSM3Y6OMi",
+  "role": "CLIENT",
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e7a53e8a5235b47c46e250"
+  },
+  "firstName": "2",
+  "lastName": "2",
+  "userName": "2",
+  "email": "2@kinal.edu.gt",
+  "password": "$2a$10$3hSWJ4/2fKOImr9Oqo56zugovrQIBfx4SmC2.ijKLm300eG5gPSWu",
+  "role": "ADMIN",
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e7a54d8a5235b47c46e253"
+  },
+  "firstName": "3",
+  "lastName": "2",
+  "userName": "1",
+  "email": "3@kinal.edu.gt",
+  "password": "$2a$10$10ddG5LDQ36.HtU.nYsaL.X4LDlU.Y5yIQa1MlUN60HnjNh1uE2Tq",
+  "role": "ADMIN",
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e7ad6506b2b9a1e2ba26b3"
+  },
+  "firstName": "4",
+  "lastName": "4",
+  "userName": "4",
+  "email": "4@kinal.edu.gt",
+  "password": "$2a$10$93On7zlfDeuoSGnnyFYNn.5c5q7FjWrEu.kf0qgNn2p9OLkMcyJEa",
+  "role": "CLIENT",
+  "state": true,
+  "__v": 0
+}]
